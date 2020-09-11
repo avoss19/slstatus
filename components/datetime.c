@@ -14,6 +14,6 @@ datetime(const char *fmt)
 		warn("strftime: Result string exceeds buffer size");
 		return NULL;
 	}
-
+	
 	return buf;
 }
